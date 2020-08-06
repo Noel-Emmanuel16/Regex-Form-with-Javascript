@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Floating Placeholder Label</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Welcome to Icons where you get to share,connect and contribute to open-source projects .</h1>
+        <h2>Sign-Up Now!</h2>
+    </div>
+    <form>
+        <div class="input-field">
+            <input type="email" name="email" required>
+            <label for="email">Email</label>
+            <p>
+                Email must be 5-12 characters long, must contain an '@' symbol,number and a domain name.
+                E.g('noeluwam21@gmail.com');
+            </p>
+        </div>
+        <div class="input-field">
+            <input type="password" name="password" id="psw" required><i class="fa fa-eye" aria-hidden="true"></i>
+            <label for="password">Password</label>
+            <p>Password must be 5-12 characters long and must contain two numbers.E.g('Juiceworld21')</p>
+        </div>
+        <button type="submit" class="btn">Login Now</button>
+        <p>Don't have an account yet? <br> <a href="#">Create an account</a></p>
+    </form>
+    <script src="Js/main.js"></script>
+</body>
+</html>
